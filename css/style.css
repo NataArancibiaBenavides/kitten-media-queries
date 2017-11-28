@@ -1,0 +1,53 @@
+
+.container{
+  width: 100%;
+  background-image: url("../img/sunny-day.jpg");
+  
+}
+
+.primerafoto img {
+  width: 80%;
+  height: auto;
+  
+} 
+
+.primerafoto img{
+  display: block;
+  }
+
+.segundafoto img { 
+  display: none;
+}
+
+.tercerafoto img {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    background-image: url("../img/dawn.png");
+  }
+
+  .primerafoto img {
+    display: none;
+  }
+
+  .segundafoto {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    background-image: url("../img/night.jpg");
+  }
+
+  .segundafoto img{
+    display: none;
+  }
+  
+
+  .primerafoto{
+    display: block;
+  }
+}
