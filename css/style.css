@@ -1,7 +1,20 @@
 
+body{
+  width: 100%;
+  height:600vh;
+  text-align: center;
+}
+
 .container{
   width: 100%;
+  height: 100%;
   background-image: url("../img/sunny-day.jpg");
+  background-repeat: none;
+  background: cover;
+  text-align: center;
+ 
+
+
   
 }
 
@@ -10,16 +23,25 @@
   height: auto;
   
 } 
+.segundafoto img{
+  width: 80%;
+  height: auto;
+  display: none;
+}
+.tercerafoto img{
+  width: 80%;
+  height: auto;
+}
 
-.primerafoto img{
+.gato-uno{
   display: block;
   }
-
-.segundafoto img { 
+.gato-dos {
   display: none;
 }
 
-.tercerafoto img {
+
+.gato-tres{
   display: none;
 }
 
@@ -28,12 +50,15 @@
     background-image: url("../img/dawn.png");
   }
 
-  .primerafoto img {
+  .gato-uno {
     display: none;
   }
 
-  .segundafoto {
+  .gato-dos {
     display: block;
+  }
+  .gato-tres{
+    display: none;
   }
 }
 
@@ -42,12 +67,16 @@
     background-image: url("../img/night.jpg");
   }
 
-  .segundafoto img{
+  .gato-dos{
     display: none;
   }
   
 
-  .primerafoto{
-    display: block;
+  .gato-uno{
+    display:none;
   }
+  .gato-tres{
+
+  display:block;
+}
 }
